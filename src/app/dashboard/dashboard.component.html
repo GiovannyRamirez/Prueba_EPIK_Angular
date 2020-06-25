@@ -1,0 +1,107 @@
+<div class="content-dashboard">
+    <div class="nav-user">
+      <div class="core-logo"></div>
+      <div class="help"></div>
+      <div class="help-location">
+        <p class="help-text">Ayuda</p>
+      </div>
+      <div class="user-img"></div>
+      <div class="user-location">
+        <p class="name-user">Paulo Castro</p>
+      </div>
+      <div class="profile-location">
+        <p class="profile-user">Super Admin</p>
+      </div>    
+      <div class="down-img"></div>
+    </div>
+    <aside class="nav-options">
+      <div class="company-info">
+        <div class="info">
+          <p class="comp-name">Diunsa</p>
+          <p class="comp-">Calle 23 # 54-06</p>
+          <p class="comp-">(57) 323 2222</p>
+        </div>
+      </div>
+      <div class="options"> 
+        <ul>
+          <div class="selected">
+            <li class="conf-item">
+                <a>
+                  <span class="icon-holder">
+                    <i class="fa fa-cog"></i>
+                  </span>
+                  <span class="opt">Configuración</span>
+                </a>
+              </li>
+          </div>
+          <div class="items">
+            <li>
+              <a>
+                <span class="icon-holder">
+                  <i class="fa fa-briefcase"></i>
+                </span>
+                <span class="opt">Gestión</span>
+              </a>
+            </li>
+          </div>
+          <div class="items">
+            <li>
+              <a>
+                <span class="icon-holder">
+                  <i class="fa fa-bar-chart"></i>
+                </span>
+                <span class="opt">Reportes</span>
+              </a>
+            </li>
+          </div>
+          <div class="items">
+            <li>
+              <a>
+                <span class="icon-holder">
+                  <i class="fa fa-usd"></i>
+                </span>
+                <span class="opt">Transacciones</span>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </aside>
+    <div class="cont-dashboard">
+      <h5 class="title">Consulta</h5>
+      <p class="welcome-user">Bienvenido Paulo</p>
+      <div class="buttons">
+        <button (click)="callCharacter()" class="btn">Personajes</button>
+        <button (click)="callLocations()" class="btn">Ubicaciones</button>
+        <button (click)="callEpisodes()" class="btn">Episodios</button>
+        <br><br>
+        <!--Tabla Personajes-->
+        <div class="gridStylesChar" ng-grid="gridOptions" *ngFor="let item of datos">
+            <tr>
+                <td>{{item.name}}</td>
+                <td><img [src]="item.src" alt="">{{item.image}}</td>
+                <td>{{item.gender}}</td>
+                <td>{{item.species}}</td>
+            </tr>
+        </div>
+        <br>
+        <!--Tabla Ubicaciones-->
+        <div class="gridStylesLoc" ng-grid="gridOptions" *ngFor="let item of datos">
+            <tr>
+                <td>{{item.name}}</td>
+                <td>{{item.type}}</td>
+                <td>{{item.dimension}}</td>
+            </tr>
+        </div>
+        <br>
+        <!--Tabla Episodios-->
+        <div class="gridStylesEp" ng-grid="gridOptions" *ngFor="let item of datos">
+            <tr>
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.air_date}}</td>
+            </tr>
+        </div>
+      </div>
+    </div>
+  </div>

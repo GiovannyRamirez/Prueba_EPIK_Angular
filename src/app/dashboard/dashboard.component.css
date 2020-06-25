@@ -1,0 +1,212 @@
+.content-dashboard {
+    width: 1024px;
+    height: 600px;
+    margin: auto;
+}
+.nav-user {
+    position: relative;
+    top: 0px;
+    width: 1024px;
+    height: 80px;
+    background-color: #fff;
+}
+.nav-options {
+    position: absolute;
+    width: 204px;
+    height: 520px;
+    background-color: #030e1d;
+}
+.core-logo {
+    position: absolute;
+    left: 37px;
+    top: 17px;
+    width: 129px;
+    height: 48px;
+    background-image: url('../../assets/img/Logo-Core-DashBoard.png')
+}
+.company-info {
+    position: absolute;
+    width: 204px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    text-align: left;
+}
+.comp-name {
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+}
+.comp- {
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d4d6da;
+}
+.icon-holder {
+    padding-left: 48.66px;
+    color: #263247;
+}
+.fa-cog {
+    color: #46db9e;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.selected {
+    width: 204px;
+    height: 47px;
+    background-color: #0a2245;
+    line-height: 47px;
+}
+.items {
+    width: 204px;
+    height: 47px;
+    line-height: 47px;
+}
+.opt {
+    position: absolute;
+    left: 80px;
+    line-height: 47px;
+}
+.options {
+    position: absolute;
+    width: 204px;
+    height: 400px;
+    top: 120px;
+}
+.help {
+    position: absolute;
+    right: 242px;
+    top: 24px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/img/ayuda-Vector.png')
+}
+.help-location {
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    top: 45px;
+    right: 212px;
+    text-align: center;
+}
+.help-text {
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000; 
+}
+.user-img {
+    position: absolute;
+    right: 172.67px;
+    top: 25.67px;
+    width: 26.67px;
+    height: 26.67px;
+    background-image: url('../../assets/img/user-Vector.png')
+}
+.user-location {
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    top: 20px;
+    right: 79px;
+    text-align: center;
+}
+.name-user {
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: -0.0269px;
+    color: #000; 
+}
+.profile-location {
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    top: 45px;
+    right: 79px;
+    text-align: center;
+}
+.profile-user {
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20x;
+    color: #000; 
+}
+.down-img {
+    position: absolute;
+    right: 51px;
+    top: 28.59px;
+    width: 12px;
+    height: 7.41px;
+    background-image: url('../../assets/img/down-Vector.png')
+}
+.cont-dashboard {
+    position: relative;
+    left: 204px;
+    width: 820px;
+    height: 520px;
+    background-color: #0a2245;
+}
+.title {
+    color: #46db9e;
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    padding-top: 33px;
+    padding-left: 45px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+.welcome-user {
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    padding-top: 23px;
+    padding-left: 45px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+}
+.buttons {
+    padding-left: 45px;
+    padding-top: 23px;
+}
+.btn {
+    color: #000;
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100px;
+}
+td {
+    width: 120px;
+    font-family: 'Maven Pro', sans-serif; /* Linkeada de Google Fonts*/
+    font-style: normal;
+    font-size: 10px;
+    color: #46db9e;
+    text-align: center;    
+    border: 1px solid #fff;
+}
